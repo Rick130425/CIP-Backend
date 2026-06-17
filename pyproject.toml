@@ -9,6 +9,7 @@ dependencies = [
     "fastapi[standard]>=0.137.1",
     "langchain-core>=1.4.7",
     "langchain-pymupdf4llm>=1.27.2",
+    "langchain-text-splitters>=1.1.2",
     "openai>=2.42.0",
     "pydantic>=2.13.4",
     "pydantic-settings>=2.14.1",

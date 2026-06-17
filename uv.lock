@@ -84,6 +84,7 @@ dependencies = [
     { name = "fastapi", extra = ["standard"] },
     { name = "langchain-core" },
     { name = "langchain-pymupdf4llm" },
+    { name = "langchain-text-splitters" },
     { name = "openai" },
     { name = "pydantic" },
     { name = "pydantic-settings" },
@@ -96,6 +97,7 @@ requires-dist = [
     { name = "fastapi", extras = ["standard"], specifier = ">=0.137.1" },
     { name = "langchain-core", specifier = ">=1.4.7" },
     { name = "langchain-pymupdf4llm", specifier = ">=1.27.2" },
+    { name = "langchain-text-splitters", specifier = ">=1.1.2" },
     { name = "openai", specifier = ">=2.42.0" },
     { name = "pydantic", specifier = ">=2.13.4" },
     { name = "pydantic-settings", specifier = ">=2.14.1" },
@@ -1023,6 +1025,18 @@ dependencies = [
 sdist = { url = "https://files.pythonhosted.org/packages/45/f3/a29a315e77f2113fed286c389fb606e2e8ddf869d42b6c7b18488d15f8a1/langchain_pymupdf4llm-1.27.2.tar.gz", hash = "sha256:4b34d4541c097d06334b119b955070234875b0fdd744f8041dfe051f95d3ac30", size = 326859, upload-time = "2026-06-10T22:48:10.973Z" }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/86/3a/64d3cdf829a98c6e23f43d59bfca804783dcd6c43f0809d8a8b9d313e7b6/langchain_pymupdf4llm-1.27.2-py3-none-any.whl", hash = "sha256:99956dda489b6440869220fa9028eddf18c41a81782b852d7a704229c3ae03a0", size = 33161, upload-time = "2026-06-10T22:48:09.788Z" },
+]
+
+[[package]]
+name = "langchain-text-splitters"
+version = "1.1.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "langchain-core" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/26/9f/6c545900fefb7b00ddfa3f16b80d61338a0ec68c31c5451eeeab99082760/langchain_text_splitters-1.1.2.tar.gz", hash = "sha256:782a723db0a4746ac91e251c7c1d57fd23636e4f38ed733074e28d7a86f41627", size = 293580, upload-time = "2026-04-16T14:20:39.162Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d3/26/1ef06f56198d631296d646a6223de35bcc6cf9795ceb2442816bc963b84c/langchain_text_splitters-1.1.2-py3-none-any.whl", hash = "sha256:a2de0d799ff31886429fd6e2e0032df275b60ec817c19059a7b46181cc1c2f10", size = 35903, upload-time = "2026-04-16T14:20:38.243Z" },
 ]
 
 [[package]]
